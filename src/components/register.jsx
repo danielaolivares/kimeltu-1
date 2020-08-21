@@ -10,8 +10,8 @@ class Register extends React.Component {
           <input type="text"/>
           <label htmlFor="">Email</label>
           <input type="email"/>
-          <label htmlFor="">Edad</label>
-          <input type="text"/>
+          <label htmlFor="">password</label>
+          <input type="password"/>
           <label htmlFor="">password</label>
           <input type="password"/>
         </form>
