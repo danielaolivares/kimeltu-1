@@ -10,19 +10,13 @@ class Register extends React.Component {
           <input type="text"/>
           <label htmlFor="">Email</label>
           <input type="email"/>
-          <label htmlFor="">telefono</label>
+          <label htmlFor="">Edad</label>
           <input type="text"/>
           <label htmlFor="">password</label>
           <input type="password"/>
         </form>
         <button>Registrarme</button>
-        <p>Declaro ser mayor de 16 año y acepto los Términos y condiciones</p>
-
-        <button>Busco trabajo</button>
-        <button>Ofrezco trabajo</button>
-        <button>Ofrezco servicios / productos</button>
-        <button>Busco servicios / productos</button>
-        <button>Tengo para donar</button>
+        <p>Declaro ser mayor de 13 año </p>
       </div>
     )
   }
