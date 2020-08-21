@@ -16,7 +16,6 @@ class Register extends React.Component {
           <input type="password"/>
         </form>
         <button>Registrarme</button>
-        <p>Declaro ser mayor de 13 año </p>
       </div>
     )
   }
