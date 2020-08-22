@@ -1,0 +1,30 @@
+.create-account-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+    .create-account {
+        display: flex;
+        flex-direction: column;
+    }
+
+.create-account-form-container {
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.register-text-input {
+    margin: 10px auto;
+    background: #FFFFFF;
+    border: 1px solid #91A5FF;
+    box-sizing: border-box;
+    border-radius: 20px;  
+    width: 280px;
+    height: 40px;  
+}

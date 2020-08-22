@@ -1,6 +1,8 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 
+import './buttons.css'
+
 class BackButtonArrow extends React.Component {
   
   handleBack = () => {
@@ -9,6 +11,7 @@ class BackButtonArrow extends React.Component {
   render() {
     return (
       <button
+        className="btn-go-back"
         onClick={this.handleBack}
       >
         &lt;

@@ -1,0 +1,15 @@
+.btn-medium{
+    width: 150px;
+    height: 40px;
+}
+
+.btn-big {
+    width: 200px;
+    height: 40px;
+}
+
+.btn-go-back {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+}
