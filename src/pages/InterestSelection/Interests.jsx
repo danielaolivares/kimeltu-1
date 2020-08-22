@@ -1,10 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
+import BackButtonArrow from '../../components/Buttons/BackButtonArrow'
 
 class Interests extends React.Component {
   render () {
     return (
       <div>
-        <p>Selecciona lo qe más te gusta</p>
+        <div>
+          <BackButtonArrow />
+          <h1>Intereses</h1>
+          <p>Selecciona las casillas según tus intereses</p>
+
+        </div>
+        <section>
+
         <label htmlFor=""><input type="checkbox"/>Ecología</label>
         <label htmlFor=""><input type="checkbox"/>Deportes</label>
         <label htmlFor=""><input type="checkbox"/>Salud</label>
@@ -21,7 +31,10 @@ class Interests extends React.Component {
         <label htmlFor=""><input type="checkbox"/>Feminismo</label>
         <label htmlFor=""><input type="checkbox"/>Animales</label>
         <label htmlFor=""><input type="checkbox"/>Fiestas</label>
-        <button>INGRESAR RUT</button>
+        </section>
+        <Link to="feed">
+          <button>Continuar</button>
+        </Link>
       </div>
     )
   }
