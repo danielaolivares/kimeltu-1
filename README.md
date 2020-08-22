@@ -1,13 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🟣✊🏻 Juntas Crecemos ✊🏻🟣
 
-## Available Scripts
+El objetivo en esta hackaton es poder evidenciar alguna problemática relacionada a la brecha de género en el área de la salud, finanzas y telecomunicaciones. 
 
-In the project directory, you can run:
+Como Squad Kimeltu luego de asistir a las sesiones de webinars decidimos atacar la brecha de género existente en el área de las telecomunicaciones, quisimos descubrir por qué se produce esta tremenda desigualdad en este rubro y cómo podríamos nosotras aportar con nuestro granito de arena brindando una posible solución a implementar, con innovación, creatividad e ímpetu de aportar a nuestro mundo un paso al cambio.
 
-### `npm start`
+>✊🏻 __*Kimeltu*__ es una palabra en mapudungun que tiene como significado _enseñar_ y _dar a conocer_
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+__
+
+
+## Objetivo del proyecto en #HackeandoLaDesigualdad ⚖️
+
+Hoy en día si vemos _la cancha_ en el área de las STEM nos encontramos con una gran diferencia de hombres versus mujeres. Las cifras son tan impactantes que solo un 8-10% de personas en éstas áreas son mujeres.
+
+Y si lo pensamos, **la tecnología es el motor de cambio del futuro** y si vemos la potencia e importancia que esto conlleva debemos ~~preocuparnos~~ **ocuparnos**, poner este tema sobre la mesa y tomar cartas en el asunto 🦾.
+
+Es por esto que hemos decidido llevar a cabo una investigación para descrifar el por qué y de dónde parte esta brecha, en donde también propondremos una posible solución a la problemática junto con la realización de un prototipo de alta fidelidad navegable y el código que podamos realizar en 24 horas ⏱. 
+
+            . . . 👩🏻‍💻  👩🏼‍💻  👩🏽‍💻  👩🏾‍💻  👩🏿‍💻 #JuntasCrecemos
+
+## Problemática Identificada
+
+Como mencionábamos previamente con cifras sobre mujeres en el área de las STEM, 
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
