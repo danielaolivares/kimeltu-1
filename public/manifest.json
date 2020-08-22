@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Kimeltu Squad",
+  "short_name": "JuntasCrecemos®",
+  "name": "Creando conexiones hackeamos la brecha",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#7D4EE6",
+  "background_color": "#7D4EE6"
 }

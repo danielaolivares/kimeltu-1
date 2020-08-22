@@ -1,26 +1,4 @@
-import React from 'react';
-import { Link } from 'react-router-dom'
-
-import '../../components/Buttons/buttons.css'
-import './welcome-page.css'
-
-import MediumBasicButton from '../../components/Buttons/MediumBasicButton'
-
-class FirstWelcomePage extends React.Component {
-
-  render() {
-    const styleButton = {
-      color: '#7D4EE6',
-      backgroundColor: '#FFFFFF',
-      borderRadius: '30px',
-      fontStyle: 'normal',
-      fontWeight: 'bold',
-      border: '1px solid #7D4EE6',
-    }
-    return (
-      <div className="third-ilustration-container">
-        <section className="ilustration-container">
-        <svg width="315" height="227" viewBox="0 0 315 227" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="315" height="227" viewBox="0 0 315 227" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path opacity="0.33" d="M303.367 216.252C302.748 218.863 301.978 221.375 301.057 223.786C300.789 224.472 300.521 225.158 300.236 225.828H21.1955C21.1955 225.828 -4.21902 139.238 30.4037 97.3156C30.839 96.7966 31.2743 96.2775 31.7096 95.7753C32.1114 95.3065 32.5132 94.8545 32.915 94.4192C33.3168 93.9839 33.7019 93.5653 34.1037 93.1468C44.534 82.1807 55.9689 76.7562 67.9563 73.3911C68.3748 73.2739 68.7934 73.1567 69.2287 73.0395C69.6305 72.9223 70.0323 72.8218 70.4341 72.7214C80.1445 70.2268 90.2065 68.9209 100.386 66.9621C103.935 66.2757 107.484 65.5223 111.05 64.6182C125.315 60.9852 139.646 54.8743 153.442 41.3634C170.468 24.705 188.031 20.486 202.948 23.8009C203.969 24.0186 204.974 24.2864 205.962 24.5711C207.418 25.0064 208.841 25.5086 210.231 26.0778C228.145 33.3942 240.835 51.777 241.555 70.7626C242.041 83.5703 243.062 95.8757 245.322 106.557C246.377 111.496 247.683 116.1 249.34 120.236C249.792 121.357 250.261 122.445 250.763 123.5C255.702 133.897 263.203 140.745 274.621 141.883C282.557 142.67 289.254 147.977 294.343 155.813C294.393 155.879 294.444 155.963 294.477 156.03C304.355 171.366 308.155 196.228 303.367 216.252Z" fill="#91A5FF"/>
 <path d="M110.264 225.192C110.264 225.192 106.698 219.918 101.122 220.353C99.4314 220.487 96.669 220.889 93.4712 221.341C91.0604 212.92 84.397 192.896 75.4232 191.758C66.2653 190.603 84.1961 212.87 91.5292 221.592C90.1898 221.776 88.8002 221.944 87.3938 222.095C83.5097 217.942 76.7459 211.798 71.087 212.284C65.4282 212.752 76.0259 218.612 83.6771 222.446C78.9726 222.798 74.5192 222.764 71.8069 221.709C65.1436 219.131 59.016 225.209 59.016 225.209H110.264V225.192Z" fill="#82B378"/>
 <path d="M169.146 214.226C180.463 212.401 189.018 216.369 197.239 215.23C203.785 214.326 207.2 207.696 216.024 205.804C213.931 204.566 211.486 203.025 210.314 201.904C208.054 199.727 204.79 195.357 210.314 195.19C214.282 195.073 217.38 201.686 218.803 205.403C220.109 205.285 221.515 205.285 223.055 205.403C221.23 199.543 217.698 188.208 216.827 186.015C215.655 183.052 220.611 173.174 226.437 184.257C230.539 192.042 227.76 201.033 225.717 205.704C227.324 205.955 228.831 206.34 230.271 206.792C235.093 195.776 250.462 164.384 267.104 168.285C285.252 172.538 246.377 193.65 236.566 209.304C244.569 213.02 251.617 217.524 263.789 214.226C296.118 205.47 298.696 225.175 298.696 225.175L154.195 225.225C154.195 225.225 157.828 216.051 169.146 214.226Z" fill="#A8E28A"/>
@@ -62,24 +40,3 @@ class FirstWelcomePage extends React.Component {
 <path d="M203.819 167.331H138.139V225.828H203.819V167.331Z" fill="#61E8F3"/>
 <path d="M94.9278 167.432C94.9278 167.432 104.789 158.324 111.302 161.103C119.874 164.753 140.115 163.748 145.238 162.794C150.344 161.856 190.274 164.669 203.819 167.331L94.9278 167.432Z" fill="#61E8F3"/>
 </svg>
-
-        </section>
-        <section className="text-container">
-          <h1 style={{fontSize: '24px', color: '#FFFFFF'}}>¡Bienvenida!</h1>
-          <p style={{fontSize: '14px', color: '#FFFFFF', margin: '20px'}}>¡Qué bueno verte aquí! Estás a punto de emprender un vuelo hacia el descubrimiento, aquí podrás conocer más mujeres en el área de las STEM a un clic de contacto. Rompamos las brechas porque <strong>Juntas Crecemos </strong>.</p>
-        </section>
-        <section className="welcome-bottom-container">
-          <Link className="button-next" to="/bienvenida-2">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="25" cy="25" r="25" fill="white"/>
-            <path d="M21 17L30.5 26L21 33.5" stroke="#7D4EE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </Link>
-        </section>
-
-      </div>
-    )
-  }
-}
-
-export default FirstWelcomePage;

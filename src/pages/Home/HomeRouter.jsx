@@ -6,6 +6,8 @@ import Profile from '../Profile/Profile'
 import Feed from '../../components/Feed/Feed'
 import HomeContent from '../../components/HomeContent/HomeContent';
 import FirstWelcomePage from '../FirstWelcomePage/FirstWelcomePage';
+import SecondWelcomePage from '../FirstWelcomePage/SecondWelcomePage';
+import ThirdWelcomePage from '../FirstWelcomePage/ThirdWelcomePage';
 import LogIn from '../LogIn/LogIn';
 import EntryScreen from '../EntryScreen/EntryScreen';
 import CreateAccount from '../CreateAccount/CreateAccount';
@@ -18,6 +20,9 @@ function HomeRouter() {
       <Router>
         <HomeContent>
         <Switch>
+          <Route exact path="/" component={FirstWelcomePage} />
+          <Route exact path="/bienvenida-2" component={SecondWelcomePage} />
+          <Route exact path="/bienvenida-3" component={ThirdWelcomePage} />
           <Route exact path="/feed" component={Feed} />
           <Route exact path="/tu-perfil" component={Profile} />
           <Route exact path="/ver-mentees" component={FirstWelcomePage}/>
@@ -29,6 +34,7 @@ function HomeRouter() {
             <Route exact path="/selecciona-tus-intereses" component={Interests} />
             <Route exact path="/home" component={Home} />
             <Route exact path="/recuperar-contrasena" component={ForgotPassword} />
+            
         </Switch>
       </HomeContent>
       </Router>
