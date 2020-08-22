@@ -1,0 +1,107 @@
+[debug] [2020-08-22T19:19:46.818Z] ----------------------------------------------------------------------
+[debug] [2020-08-22T19:19:46.820Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\danyo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-08-22T19:19:46.820Z] CLI Version:   8.9.0
+[debug] [2020-08-22T19:19:46.820Z] Platform:      win32
+[debug] [2020-08-22T19:19:46.820Z] Node Version:  v12.18.3
+[debug] [2020-08-22T19:19:46.822Z] Time:          Sat Aug 22 2020 15:19:46 GMT-0400 (GMT-04:00)
+[debug] [2020-08-22T19:19:46.822Z] ----------------------------------------------------------------------
+[debug] [2020-08-22T19:19:46.822Z] 
+[debug] [2020-08-22T19:19:46.828Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-22T19:19:46.829Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\danyo\OneDrive\Desktop\kimeltu
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using kimeltu-d3ebf. 
+[debug] [2020-08-22T19:19:51.543Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/kimeltu-d3ebf  
+ 
+[debug] [2020-08-22T19:19:52.485Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 22 Aug 2020 19:19:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-08-22T19:20:30.856Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-08-22T19:20:30.920Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Sat, 22 Aug 2020 19:17:15 GMT","expires":"Sat, 22 Aug 2020 20:07:15 GMT","last-modified":"Thu, 20 Aug 2020 21:07:50 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"196","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-08-22T19:20:31.025Z] Error: ENOENT: no such file or directory, open 'C:\Users\danyo\OneDrive\Desktop\kimeltu\src\index.js\index.html'
+    at Object.openSync (fs.js:462:3)
+    at Object.writeFileSync (fs.js:1362:35)
+    at Object.createFileSync (C:\Users\danyo\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\danyo\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:154:8)
+    at C:\Users\danyo\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:173:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-08-22T19:20:38.426Z] ----------------------------------------------------------------------
+[debug] [2020-08-22T19:20:38.428Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\danyo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-08-22T19:20:38.428Z] CLI Version:   8.9.0
+[debug] [2020-08-22T19:20:38.428Z] Platform:      win32
+[debug] [2020-08-22T19:20:38.428Z] Node Version:  v12.18.3
+[debug] [2020-08-22T19:20:38.430Z] Time:          Sat Aug 22 2020 15:20:38 GMT-0400 (GMT-04:00)
+[debug] [2020-08-22T19:20:38.430Z] ----------------------------------------------------------------------
+[debug] [2020-08-22T19:20:38.430Z] 
+[debug] [2020-08-22T19:20:38.436Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-22T19:20:38.436Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\danyo\OneDrive\Desktop\kimeltu
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using kimeltu-d3ebf. 
+[debug] [2020-08-22T19:20:43.616Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/kimeltu-d3ebf  
+ 
+[debug] [2020-08-22T19:20:44.626Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 22 Aug 2020 19:20:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-08-22T19:20:56.658Z] Error: ENOENT: no such file or directory, open 'C:\Users\danyo\OneDrive\Desktop\kimeltu\src\index.js\404.html'
+    at Object.openSync (fs.js:462:3)
+    at Object.writeFileSync (fs.js:1362:35)
+    at Object.createFileSync (C:\Users\danyo\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\danyo\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:154:8)
+    at C:\Users\danyo\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:173:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
