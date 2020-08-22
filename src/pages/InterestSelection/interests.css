@@ -1,0 +1,66 @@
+.interests-page-container {
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.interest-icon-container {
+    background: #FFFFFF;
+    border: 1px solid #91A5FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 70%;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+.interest-icon-container:hover {
+    border: 1px solid #7D4EE6;
+}
+svg path:hover{
+    fill: #7D4EE6;
+}
+
+/* .interest-icon-container path:hover {
+    color: #7D4EE6;
+} */
+/* svg:hover {
+    fill: #7D4EE6;
+} */
+/* .interest-icon:hover {
+    color:#7D4EE6;
+} */
+
+.interest-selection-container p {
+    font-size: 14px;
+    color: #40404E;
+ 
+}
+
+.interest-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 8px 20px 30px;
+}
+
+.interest-selection-container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.interest-bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
