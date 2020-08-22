@@ -1,4 +1,5 @@
 import React from 'react';
+import { useFirebaseApp } from "reactfire";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Home from './Home'
@@ -15,6 +16,9 @@ import Interests from '../InterestSelection/Interests';
 import ForgotPassword from '../ForgotPassword/ForgotPassword';
 
 function HomeRouter() {
+  const firebase = useFirebaseApp();
+  console.log(firebase);
+
   return (
     <div id="home-router">
       <Router>

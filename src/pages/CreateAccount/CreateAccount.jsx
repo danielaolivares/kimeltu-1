@@ -22,7 +22,7 @@ class CreateAccount extends React.Component {
     return (
       <div className="create-account-container">
         <section style={{ display: 'flex', backgroundColor: '#7D4EE6' }}>
-          <BackButtonArrow />
+          <BackButtonArrow className="back-white"/>
           <h1 style={{ width: '160px', fontSize: '18px', color: '#FFFFFF' }}>Registrar cuenta como Mentee</h1>
         </section>
         <section className="create-account-form-container">
