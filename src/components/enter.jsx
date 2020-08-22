@@ -4,8 +4,12 @@ class Enter extends React.Component {
   render () {
     return (
       <div>
-        <button>Crear una cuenta</button>
-        <button>Ya tengo una cuenta</button>
+        <h2>Soy Mentora</h2>
+        <button>REGISTRARME</button>
+        <button>INICIA SESIÓN</button>
+        <h2>Soy Alumna</h2>
+        <button>REGISTRARME</button>
+        <button>INICIA SESIÓN</button>
       </div>
     )
   }
